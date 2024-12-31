@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family:'droid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf')format(opentype);
+}
+
+body{
+    background-color: aquamarine;
+    margin: 0;
+    border: 0;
+    padding: 1px 1px 1px 1px;
+    height: auto;
+    width: 100%;
+}
+header{
+    background-image: linear-gradient(180deg, rgb(25, 212, 81), rgba(0, 0, 0, 0.377));
+    padding-top: 20px;
+    border: 0px;
+    margin: -1px;
+    display: block;
+    color: white;
+    height: auto;
+    width: auto;
+}
+#cab{
+    text-align: center;
+    margin: 10px 10px;
+    font-family: 'bebas neue';
+    font-weight: 500;
+    
+}
+#pcab{
+    text-align: center;
+    margin: 10px 10px;
+    
+}
+nav{
+    height: 27px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+.linknav{
+    margin-left: 5px;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+.linknav:hover{
+    background-color: rgba(2, 216, 74, 0.527);
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0, 0.377);
+}
+.linkcorpo1{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+.linkcorpo2{
+    text-decoration: none;
+    color: darkgreen;
+    background-color: rgba(127, 255, 212, 0.459);
+}
+.linkcorpo2::after{
+    content: '\01F517';
+    font-size: 12px;
+}
+.linkcorpo3{
+    text-decoration: none;
+    color: darkgreen;
+}
+.linkcorpo3::after{
+    content: '\01F517';
+    font-size: 12px;
+}
+main{
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+
+}
+#corpo{
+    font-family: 'droid';
+    color: darkgreen;
+    margin: 0px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: justify;
+}
+p{
+    margin: 10px;
+    display: block;
+    text-indent: 20px;
+    text-align: left;
+    padding: auto;
+    font-size: 1em;
+}
+#centerimg{
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    color: darkgreen;
+    background-image: linear-gradient(to right, rgba(127, 255, 212, 0.459), rgba(255, 255, 255, 0.082) );
+    margin-left: 10px;
+    font-family: 'droid';
+    font-size: 1.25em;
+    text-align: left;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 116, 39, 0.973);
+    padding: 10px 20px;
+}
+footer > p{
+    background-color: rgba(0, 116, 39, 0.973);
+    color: white;
+    margin: 0%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#extra{
+    background-color: white;
+    margin: 0px auto;
+    padding-top: 1px;
+    display: block;
+    width: 80%;
+    height: auto;
+    
+}
+#extraint{
+    background-color: aquamarine;
+    margin: 0px 10px 0px 10px;
+    padding-top: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#extraint > p{
+    display: block;
+    margin: 10px 10px
+
+}
+#p1{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px 0px 10px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ul{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+ul li::before{
+    content: "✔";
+}
+abbr{
+    text-decoration: none;
+}
+#p3{
+    padding-bottom: 10px;
+}
+footer > p > span{
+    font-weight: bold;
+}
+#up{
+    padding-bottom: 20px;
+}
